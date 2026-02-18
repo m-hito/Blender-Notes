@@ -25,9 +25,17 @@ Controls = WASD, Q/E down/up, Mouse = look around, Shift = move faster
 - Edit mode: Extrude = ``E``, loop cut = ``Ctrl + R``, Bevel = ``Ctrl + B``
 
 # Modes 🔀
-**Object mode** 
-
-**Editor mode** 
+# Modes 🔀
+| **Object Mode**                          | **Edit Mode**                               |
+|------------------------------------------|---------------------------------------------|
+| G = Move object                          | G = Move/slide vertices/edges/faces         |
+| R = Rotate object                        | E = Extrude                                 |
+| S = Scale object                         | Ctrl + R = Loop cut                         |
+| Shift + A = Add new object               | Ctrl + B = Bevel                            |
+| Shift + D = Duplicate object             | K = Knife tool                              |
+| Tab = Switch to Edit mode                | Alt + M = Merge vertices                    |
+|                                          | Alt + S = Shrink/Fatten                     |
+|                                          | Tab = Switch back to Object mode            |
 
 **Viewport**
 
