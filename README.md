@@ -9,6 +9,8 @@
 - `` G + X, Y, Z `` = Move part in axis
 - `` S + X = 0.5, Y, Z `` Scale in axis, press number to scale to that size
 - `` Shift + D`` = Duplicate
+- `` K `` in editor mode = Knife tool
+- `` Spin`` = spin vertices for visuals
 
 # Built Tips 🧠
  Made a head model using Extrude ``E in edit mode (tab)`` , scaling ``(S)``, moving vertices ``(G) in edit mode``. 
