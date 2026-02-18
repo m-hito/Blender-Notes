@@ -10,6 +10,17 @@
 Enable Walk/Fly navig = Shift + ~
 Controls = WASD, Q/E down/up, Mouse = look around, Shift = move faster
 ```
+**Selection**:
+- A = Select all 
+- Alt + A = Deselect all  
+- Shift + Click = Multi-select 
+- Ctrl + I = Invert selection
+
+**Undo/Redo**: 
+
+- Ctrl + Z = Undo
+- Ctrl + Shift + Z = Redo
+
 - Object Mode basics: Move object = ``G``, Rotate object = ``R``, Scale = ``S``
 - Edit mode: Extrude = ``E``, loop cut = ``Ctrl + R``, Bevel = ``Ctrl + B``
 
@@ -18,12 +29,21 @@ Controls = WASD, Q/E down/up, Mouse = look around, Shift = move faster
 
 **Editor mode** 
 
+**Viewport**
+
 **Viewport Shading**
 - WireFrame: Display only edges of geometry without surface.
 - Toggle X-ray: Transparent scene display, allow selecting through items.
 
+# 1) ViewPort
+- Numpad 1 = Front view
+- Numpad 3 = Side view  
+- Numpad 7 = Top view
+- Numpad 5 = Toggle perspective/ortho
+- Numpad (.) = Select object zoom on it
 
-# Object mode ✨
+
+# 2) Object mode ✨
 ``` text
 G = Grab/Move → G + X/Y/Z (axis lock) 
 R = Rotate → R → 90 (90° snaps) 
@@ -33,7 +53,7 @@ Shift + D = Duplicate + move
 Tab = Edit/Object mode toggle
 ```
 
-# Editor Mode ⚒️
+# 3) Editor Mode ⚒️
 ``` text
 E = Extrude faces/edges/verts
 Ctrl + R = Loop cut (scroll for multiples)
