@@ -5,7 +5,7 @@
   Free move = (Shift + MMB)
   Select object then zoom on it = Numpad (.)
   ```
-- FreeCam:
+- FreeCam 🎥:
  ``` text
 Enable Walk/Fly navig = Shift + ~
 Controls = WASD, Q/E down/up, Mouse = look around, Shift = move faster
@@ -13,8 +13,15 @@ Controls = WASD, Q/E down/up, Mouse = look around, Shift = move faster
 - Object Mode basics: Move object = ``G``, Rotate object = ``R``, Scale = ``S``
 - Edit mode: Extrude = ``E``, loop cut = ``Ctrl + R``, Bevel = ``Ctrl + B``
 
-# Modes 
-Objectmode / editor mode 
+# Modes 🔀
+**Object mode** 
+
+**Editor mode** 
+
+**Viewport Shading**
+- WireFrame: Display only edges of geometry without surface.
+- Toggle X-ray: Transparent scene display, allow selecting through items.
+
 
 # Object mode ✨
 ``` text
