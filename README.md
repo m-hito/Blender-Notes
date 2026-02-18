@@ -1,5 +1,5 @@
 # Selections And Navigations ✅
-- Navigation:
+1) Navigation:
   ``` text
   Rotate = (MMB)
   Free move = (Shift + MMB)
@@ -10,21 +10,24 @@
 Enable Walk/Fly navig = Shift + ~
 Controls = WASD, Q/E down/up, Mouse = look around, Shift = move faster
 ```
-**Selection**:
+2) **Selection**:
 - A = Select all 
 - Alt + A = Deselect all  
 - Shift + Click = Multi-select 
 - Ctrl + I = Invert selection
 
-**Undo/Redo**: 
+3) **Mistakes**:
 
-- Ctrl + Z = Undo
-- Ctrl + Shift + Z = Redo
+| **Undo**           | **Redo** | 
+|------------------|-------------------------|
+|  Ctrl + Z | Ctrl + Shift + Z  |
+|   Edit --> UndoHistory        |  |
+
+- **Basics**:
 
 - Object Mode basics: Move object = ``G``, Rotate object = ``R``, Scale = ``S``
 - Edit mode: Extrude = ``E``, loop cut = ``Ctrl + R``, Bevel = ``Ctrl + B``
 
-# Modes 🔀
 # Modes 🔀
 | **Object Mode**                          | **Edit Mode**                               |
 |------------------------------------------|---------------------------------------------|
