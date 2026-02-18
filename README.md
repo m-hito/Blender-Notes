@@ -45,10 +45,16 @@ Alt + S = Shrink/Fatten objects
 ```
 
 # Built Tips 🧠
- Made a head model using Extrude ``E in edit mode (tab)`` , scaling ``(S)``, moving vertices ``(G) in edit mode``. 
+**Day 1**
+- Made a head model using Extrude ``E in edit mode (tab)`` , scaling ``(S)``, moving vertices ``(G) in edit mode``. 
+- Made body using: Bevel, scale, Duplicate, move in coordinates, 
 
-Made body using: Bevel, scale, Duplicate, move in coordinates, 
+**Day 2**
+- Mirror modifier: Select a side, set cursor to midpoint, set origin to 3d cursor.
+- go to modifier tab, apply mirror modifier.
+- By setting object origin to midpoint/3d cursor, will mirror on other side from same distance
 
+Analogy Mirroring modifier: ``axis -x ----0---- x`` WHERE 0 = 3d cursor.
 
 # Export/Import
 **Export** as obj from blender.
