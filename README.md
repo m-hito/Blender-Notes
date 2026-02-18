@@ -25,6 +25,7 @@ Ctrl + B = Bevel (scroll for segments)
 G = Slide vertices (your head sculpting)
 K = Knife tool (custom cuts)
 Alt + M = Merge verts
+Alt + S = Shrink/Fatten objects
 ```
 
 # Built Tips 🧠
