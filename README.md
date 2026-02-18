@@ -5,7 +5,11 @@
   Free move = (Shift + MMB)
   Select object then zoom on it = Numpad (.)
   ```
-- FreeCam: Enable Walk/Fly navig = ``Shift + ~``, Controls = `` WASD, Q/E down/up, Mouse look around, Shift move faster``
+- FreeCam:
+ ``` text
+Enable Walk/Fly navig = Shift + ~
+Controls = WASD, Q/E down/up, Mouse = look around, Shift = move faster
+```
 - Object Mode basics: Move object = ``G``, Rotate object = ``R``, Scale = ``S``
 - Edit mode: Extrude = ``E``, loop cut = ``Ctrl + R``, Bevel = ``Ctrl + B``
 
