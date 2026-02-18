@@ -42,4 +42,16 @@ Alt + S = Shrink/Fatten objects
 
 Made body using: Bevel, scale, Duplicate, move in coordinates, 
 
-# 
+
+# Export/Import
+**Export** as obj from blender.
+
+**Import** In rblx. It will be a mesh.
+
+1. Select imported MeshPart in Explorer  
+2. Properties panel → **CollisionFidelity** = "PreciseConvexDecomposition"  
+   (Default "Box" = bad collisions → players clip through)  
+3. **CanCollide** = true (unless decorative)  
+4. **CanTouch** = true (for triggers/scripts)  
+5. **Material** = Plastic/Neon (match Blender look)  
+6. Scale/Position after import (G/R/S shortcuts work here too)
