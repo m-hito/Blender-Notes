@@ -1,6 +1,7 @@
 # Selections And Navigations ✅
 1) Navigation:
   ``` text
+  Viewport = Right Upper tab which has objects/ Modifiers on lower right
   Rotate = (MMB)
   Free move = (Shift + MMB)
   Select object then zoom on it = Numpad (.)
