@@ -32,6 +32,19 @@ Controls = WASD, Q/E down/up, Mouse = look around, Shift = move faster
 
 
 # Modes 🔀
+There are various modes in blender to model freely, Object mode, Edit mode, Scult mode and more but basic are object and edit mode. Object mode u can select many parts, and edit individually in edit mode for more control. Edit mode enables special modes such  as "Select mode" To select each faces/Vertex/Edges part of object more freely. 
+**ViewPort** Is basically the workspace u will be working at 
+
+0) **Viewport Modes**
+    - WireFrame: Display only edges of geometry without surface.
+    - Toggle X-ray: Transparent scene display, allow selecting through items.
+    - Material Preview: View material/ color of objects
+
+1) Object mode
+   - Add objects/ select each object 
+2) Edit mode
+   - Select mode/ Of the selected objects in object mode 
+
 | **Object Mode**                          | **Edit Mode**                               |
 |------------------------------------------|---------------------------------------------|
 | G = Move object                          | G = Move/slide vertices/edges/faces         |
@@ -43,12 +56,6 @@ Controls = WASD, Q/E down/up, Mouse = look around, Shift = move faster
 |                                          | Alt + S = Shrink/Fatten                     |
 |                                          | Tab = Switch back to Object mode            |
 
-**Viewport**
-
-**Viewport Modes**
-- WireFrame: Display only edges of geometry without surface.
-- Toggle X-ray: Transparent scene display, allow selecting through items.
-- Material Preview: View material/ color of objects
 
 ## Shortcuts 🔎
 # 1) ViewPort
@@ -143,6 +150,10 @@ At this point you have **two materials on the object**, but only the first is ac
 Now only those selected faces use EyesRed; the rest still use the metal material.
 
 If you **skip the “+ slot + Assign” part** and only change Base Color on the existing material, Blender updates the **same material** → whole mesh changes, exactly what you’re seeing.
+
+
+**Pro material naming:**
+`robot.body.metal`, `robot.eyes.emissive`, `robot.joints.rust`
 
 # Export/Import
 **Export** as obj from blender.
