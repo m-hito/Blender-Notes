@@ -95,7 +95,8 @@ Analogy Mirroring modifier: ``axis -x ----0---- x`` WHERE 0 = 3d cursor.
 ``Made a Robot.blend, Default rig.blend, Restored Arena 4 temple like structure. Arena.blend``
 
 
-**Day 3**
+**Day 3** 
+
 Learning to color a 3d model.
 
 1) Creating a material
