@@ -79,6 +79,10 @@ K = Knife tool (custom cuts)
 Alt + M = Merge verts
 Alt + S = Shrink/Fatten objects
 ```
+- **Select mode** (In editor mode) at top left.
+  - Select mode ``1``: Vertex ( select edge of object/ useful for building ) 
+  - Select mode ``2``: Face ( used for coloring/ color a face of object )
+  - Select mode ``3``: Edge ( select edge of object / can make unique structures when edited in this mode )
 
 # Built Tips 🧠
 **Day 1**
