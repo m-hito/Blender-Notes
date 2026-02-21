@@ -45,10 +45,12 @@ Controls = WASD, Q/E down/up, Mouse = look around, Shift = move faster
 
 **Viewport**
 
-**Viewport Shading**
+**Viewport Modes**
 - WireFrame: Display only edges of geometry without surface.
 - Toggle X-ray: Transparent scene display, allow selecting through items.
+- Material Preview: View material/ color of objects
 
+## Shortcuts 🔎
 # 1) ViewPort
 - Numpad 1 = Front view
 - Numpad 3 = Side view  
