@@ -17,6 +17,61 @@ Controls = WASD, Q/E down/up, Mouse = look around, Shift = move faster
 - Shift + Click = Multi-select 
 - Ctrl + I = Invert selection
 
+# Improved selections (In edit mode)
+
+### 1) Use loop select instead of single clicks  
+In **Edit Mode**:
+
+- Edge / Face loop select:  
+  - Hover near an edge →  
+  - **Alt + Left Click** = select a full loop around the model. 
+- Combine directions:  
+  - Alt + click vertical edge → vertical loop  
+  - Alt + click horizontal edge → horizontal loop
+
+Great for grabbing bands around arms, legs, eyes, mouth, etc.
+
+***
+
+### 2) Use box + circle select, not raw clicking  
+
+- **Box select**:  
+  - Press **B** → drag rectangle → selects everything inside. 
+  - Ctrl + B drag = deselect inside area (if needed). 
+
+- **Circle select**:  
+  - Press **C** → get a brush cursor → scroll to change radius. 
+  - Left click = add to selection, middle click = remove, right click = exit.
+
+This is probably what he’s doing very fast in the sped‑up part.
+
+***
+
+### 3) Use “Select Linked” for chunks
+
+If your mesh has separate islands (like eyes, buttons, armor pieces):
+
+- Hover over part → press **L** = select the whole connected piece under mouse. 
+- Ctrl + L = select everything connected to current selection. 
+
+Perfect for grabbing a whole eye or mouth region instantly.
+
+***
+
+### 4) Mix selection modes
+
+You already wrote:
+
+- 1 = Vertex  
+- 2 = Edge  
+- 3 = Face  
+
+Trick:  
+- Use **2 (edge)** + Alt + click for loops.  
+- Switch to **3 (face)** to see what you actually grabbed, then Assign material.
+
+***
+
 3) **Mistakes**:
 
 | **Undo**           | **Redo** | 
